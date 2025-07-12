@@ -7,7 +7,7 @@
 
         <!-- Left Side - Network Animation (Hidden on mobile) -->
         <div class="hidden lg:block h-full min-h-[500px] relative overflow-hidden">
-          <HomeNetworkBg  />
+          <HomeNetworkBg />
         </div>
 
         <!-- Center Content - Takes more space -->
@@ -35,10 +35,11 @@
 
             <!-- CTA Button -->
             <div class="mt-8">
-              <NuxtLink to="/contact"
-                class="inline-block bg-peachy hover:bg-[#d65a42] text-white font-semibold px-10 py-4 rounded-full text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl hover:shadow-peachy/30">
+              <button
+                class="inline-block bg-peachy hover:bg-[#d65a42] text-white font-semibold px-10 py-4 rounded-full text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl hover:shadow-peachy/30"
+                @click="$emit('openModal')">
                 Get Started
-              </NuxtLink>
+              </button>
             </div>
           </div>
         </div>
@@ -50,7 +51,7 @@
               src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
               alt="Digital transformation sphere"
               class="w-full h-full object-cover rounded-full shadow-2xl animate-bounce"
-              style="animation: float 6s ease-in-out infinite;" />
+              style="animation: float 6s ease-in-out infinite;">
           </div>
         </div>
 

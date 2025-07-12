@@ -202,8 +202,6 @@
 </template>
 
 <script setup>
-import { reactive, ref, computed } from 'vue'
-
 const props = defineProps({
   isModalOpen: {
     type: Boolean,

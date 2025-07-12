@@ -34,10 +34,10 @@
 
             <!-- Contact Us Button -->
             <div class="hidden md:block">
-              <NuxtLink to="/contact"
+              <button @click="$emit('openModal')"
                 class="bg-white border border-white text-peachy hover:bg-transparent hover:text-white px-8 py-4 rounded-full font-medium transition-all duration-200 text-sm md:text-xl">
                 Contact Us
-              </NuxtLink>
+              </button>
             </div>
 
             <!-- Mobile menu button -->
@@ -90,7 +90,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+
 
 const mobileMenuOpen = ref(false)
 

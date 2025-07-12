@@ -21,7 +21,7 @@
 
         <!-- CTA Button -->
         <div class="flex justify-center">
-          <button
+          <button @click="$emit('openModal')"
             class="inline-flex items-center gap-3 bg-[#E2725B] text-white font-semibold py-4 px-8 rounded-full text-xl transition-all duration-300 ease-in-out transform translate-y-0 shadow-lg hover:bg-[#d65a42] hover:translate-y-[-0.25rem] hover:shadow-2xl">
             Let's Grow Together
             <div

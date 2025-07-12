@@ -30,7 +30,7 @@
             <!-- Action Buttons -->
             <div class="flex flex-col sm:flex-row gap-6 items-start">
               <!-- Get In Touch Button -->
-              <button class="about-cta-button border">
+              <button @click="$emit('openModal')" class="about-cta-button border">
                 Let's Grow Together
                 <div class="about-cta-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5">

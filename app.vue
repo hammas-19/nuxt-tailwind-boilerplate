@@ -1,21 +1,21 @@
 <template>
   <div>
     <!-- In any component, button, or element -->
-    <TheNavbar />
-    <HomeHero />
+    <TheNavbar @open-modal="isModalOpen = true" />
+    <HomeHero @open-modal="isModalOpen = true" />
     <HomeMarquee />
     <HomeOfferings />
-    <HomeCTA1 />
+    <HomeCTA1 @open-modal="isModalOpen = true" />
     <HomeServices />
-    <HomeCTA2 />
+    <HomeCTA2 @open-modal="isModalOpen = true" />
     <HomePortfolioMarquee />
     <HomeProcess />
     <HomeTestimonials />
     <HomeFaqs />
-    <ContactModal :isModalOpen="isModalOpen" @close="isModalOpen = false" />
+    <ContactModal :is-modal-open="isModalOpen" @close="isModalOpen = false" />
     <TheFooter />
   </div>
 </template>
 <script setup>
-const isModalOpen = ref(true)
+const isModalOpen = ref(false)
 </script>
