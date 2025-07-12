@@ -10,28 +10,28 @@ export default defineNuxtConfig({
   // Basic SEO Configuration
   app: {
     head: {
-      title: 'Hammas Masood - Frontend Developer Portfolio',
+      title: 'Mr TechLabs - Creative Agency Portfolio',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Portfolio of a skilled Frontend Developer specializing in Vue.js, Nuxt.js, Python, and modern web technologies. View my latest projects including e-commerce platforms, PWAs, and educational websites.' },
-        { name: 'keywords', content: 'Frontend Developer, web developer, Vue.js, Nuxt.js, Python, JavaScript, portfolio' },
-        { name: 'author', content: 'Hammas Masood' },
+        { name: 'description', content: 'Portfolio of a skilled Creative Agency specializing in Vue.js, Nuxt.js, Python, and modern web technologies. View my latest projects including e-commerce platforms, PWAs, and educational websites.' },
+        { name: 'keywords', content: 'Creative Agency, web developer, Vue.js, Nuxt.js, Python, JavaScript, portfolio' },
+        { name: 'author', content: 'Mr TechLabs' },
         { name: 'robots', content: 'index, follow' },
 
         // Open Graph (Social Media)
         { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Hammas Masood - Frontend Developer Portfolio' },
+        { property: 'og:title', content: 'Mr TechLabs - Creative Agency Portfolio' },
         { property: 'og:description', content: 'Portfolio showcasing modern web development projects including e-commerce platforms, PWAs, and educational websites built with Vue.js, Nuxt.js, and Python.' },
         { property: 'og:image', content: '/og-image.jpg' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:url', content: 'https://hammasmasood.netlify.app/' },
-        { property: 'og:site_name', content: 'Hammas Masood Portfolio' },
+        { property: 'og:site_name', content: 'Mr TechLabs Portfolio' },
 
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Hammas Masood - Frontend Developer Portfolio' },
+        { name: 'twitter:title', content: 'Mr TechLabs - Creative Agency Portfolio' },
         { name: 'twitter:description', content: 'Portfolio showcasing modern web development projects built with Vue.js, Nuxt.js, and Python.' },
         { name: 'twitter:image', content: '/og-image.jpg' },
 
