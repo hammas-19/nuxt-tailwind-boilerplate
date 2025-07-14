@@ -4,13 +4,21 @@
     <TheNavbar @open-modal="isModalOpen = true" />
     <HomeHero @open-modal="isModalOpen = true" />
     <HomeMarquee />
-    <HomeOfferings />
+    <div id="aboutus">
+      <HomeOfferings />
+    </div>
     <HomeCTA1 @open-modal="isModalOpen = true" />
-    <HomeServices />
+    <div id="services">
+      <HomeServices />
+    </div>
     <HomeCTA2 @open-modal="isModalOpen = true" />
-    <HomePortfolioMarquee />
+    <div id="portfolio">
+      <HomePortfolioMarquee />
+    </div>
     <HomeProcess />
-    <HomeTestimonials />
+    <div id="testimonials">
+      <HomeTestimonials />
+    </div>
     <HomeFaqs />
     <ContactModal :is-modal-open="isModalOpen" @close="isModalOpen = false" />
     <TheFooter />

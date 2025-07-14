@@ -112,7 +112,7 @@ const leftColumnFaqs = ref([
     isOpen: false
   },
   {
-    question: "Can I get 100% custom web design with Digi Ranchers?",
+    question: "Can I get 100% custom web design with Mr Techlabs?",
     answer: "Absolutely! We specialize in creating 100% custom web designs that reflect your brand identity and meet your specific business requirements. Every design is unique and tailored to your vision.",
     isOpen: false
   }

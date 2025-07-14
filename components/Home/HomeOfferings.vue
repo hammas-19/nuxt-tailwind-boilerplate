@@ -8,7 +8,7 @@
           <div class="max-w-lg">
             <!-- Services Badge -->
             <div class="inline-block text-[#E2725B] font-semibold text-lg mb-4">
-              Services
+              About us
             </div>
 
             <!-- Main Heading -->

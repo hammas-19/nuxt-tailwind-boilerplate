@@ -198,15 +198,15 @@ const testimonials = [
 
 <style scoped>
 .marquee {
-  animation: marqueescroll 40s linear infinite;
+  animation: marqueescroll 15s linear infinite;
 }
 
 .reverse {
-  animation: marqueescrollR 35s linear infinite;
+  animation: marqueescrollR 15s linear infinite;
 }
 
 .marquee-third {
-  animation: marqueescroll 45s linear infinite;
+  animation: marqueescroll 15s linear infinite;
 }
 
 @keyframes marqueescroll {

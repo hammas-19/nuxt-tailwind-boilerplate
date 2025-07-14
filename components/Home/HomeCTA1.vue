@@ -2,7 +2,7 @@
   <div>
     <section class="my-20 relative overflow-hidden mx-5">
       <div class="max-w-7xl mx-auto rounded-[40px]  border-2 border-peachy">
-        <div class="grid lg:grid-cols-2 gap-8 items-center">
+        <div class="grid lg:grid-cols-2 gap-8 items-center justify-items-center">
 
           <!-- Left Side - Image with Solar System Animation -->
           <div class=" bg-peachy rounded-4xl m-2 p-5 md:p-10">
@@ -19,7 +19,7 @@
 
             <!-- Description -->
             <p class="text-white text-lg leading-relaxed mb-10">
-              Our creative team at Ranked Designs knows how important a strong online presence is. We work closely with
+              Our creative team at Mr TechLabs knows how important a strong online presence is. We work closely with
               you to understand your business, deliver solutions on time, and help your brand perform better online.
               From
               branding your business and developing your websites to marketing it effectively on social media and search
@@ -50,27 +50,7 @@
               </div>
             </div>
           </div>
-
-          <!-- Right Side - Content -->
-          <div class="relative m-2 rounded-4xl">
-            <div class="solar-system-container absolute inset-0 left-[7%]">
-              <div class="solar-system">
-                <div class="sun"></div>
-
-                <!-- Earth orbit - starts at 0 degrees, completes orbit in 16 seconds -->
-                <div class="earth-orbit">
-                  <div class="earth"></div>
-                </div>
-
-                <!-- Mars orbit - starts at 180 degrees, completes orbit in 25 seconds -->
-                <div class="mars-orbit">
-                  <div class="mars"></div>
-                </div>
-              </div>
-            </div>
-            <img src="/CTA1/secImage.png" alt="Website Development Showcase" class="w-full h-auto relative z-10">
-          </div>
-
+          <img src="/CTA1/cta1Image.png" alt="Website Development Showcase" class="w-fit h-full max-h-[450px] relative z-10">
         </div>
       </div>
     </section>

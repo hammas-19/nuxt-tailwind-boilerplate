@@ -29,8 +29,8 @@
             <p class="text-lg sm:text-xl leading-relaxed text-gray-600 mb-10">
               We help businesses shine with custom web development,<br class="hidden sm:block">
               professional seo services, and creative design and branding services.<br class="hidden sm:block">
-              Let's create something amazing together at <span class="text-peachy font-semibold">Digi</span> <span
-                class="text-gray-800 font-bold">Ranchers</span>
+              Let's create something amazing together at <span class="text-peachy font-semibold">Mr</span> <span
+                class="text-gray-800 font-bold">TechLabs</span>
             </p>
 
             <!-- CTA Button -->
