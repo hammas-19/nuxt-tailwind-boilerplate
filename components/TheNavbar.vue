@@ -6,18 +6,18 @@
         <div class="flex items-center justify-between h-12">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <NuxtLink to="/" class="text-white font-bold text-xl">
+              <a href="/#home" class="text-white font-bold text-xl">
               <img src="/techLabsLogo.png" class="w-fit max-w-[50px]" alt="Mr TechLabs">
-            </NuxtLink>
+              </a>
           </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-6">
-              <NuxtLink to="/"
+               <a href="/#home"
                 class="text-white hover:text-white/80 px-2 py-1 text-sm md:text-xl font-medium transition-colors duration-200">
                 Home
-              </NuxtLink>
+            </a>
               <a href="/#aboutus"
                 class="text-white hover:text-white/80 px-2 py-1 text-sm md:text-xl font-medium transition-colors duration-200">
                 About us
@@ -62,11 +62,11 @@
       <!-- Mobile Navigation Menu -->
       <div v-show="mobileMenuOpen" class="md:hidden mt-2">
         <div class="bg-peachy rounded-2xl px-4 py-4 space-y-2 shadow-lg">
-          <NuxtLink to="/"
+           <a href="/#home"
             class="text-white hover:text-white/80 block px-3 py-2 text-sm font-medium transition-colors duration-200"
             @click="closeMobileMenu">
             Home
-          </NuxtLink>
+        </a>
           <a href="/#aboutus"
             class="text-white hover:text-white/80 block px-3 py-2 text-sm font-medium transition-colors duration-200"
             @click="closeMobileMenu">

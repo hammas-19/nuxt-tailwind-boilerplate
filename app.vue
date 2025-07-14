@@ -2,7 +2,9 @@
   <div>
     <!-- In any component, button, or element -->
     <TheNavbar @open-modal="isModalOpen = true" />
-    <HomeHero @open-modal="isModalOpen = true" />
+    <div id="home">
+      <HomeHero @open-modal="isModalOpen = true" />
+    </div>
     <HomeMarquee />
     <div id="aboutus">
       <HomeOfferings />
