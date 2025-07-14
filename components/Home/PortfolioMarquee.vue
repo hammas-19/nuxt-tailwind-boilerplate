@@ -1,5 +1,13 @@
 <template>
   <section class="py-20 bg-white overflow-hidden">
+          <div class="text-center mb-16">
+        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          Our Portfolio
+        </h2>
+        <p class="text-lg text-gray-600">
+          We provide services from tech to design.
+        </p>
+      </div>
     <div class="website-marquee">
 
       <!-- First Row - Left to Right -->

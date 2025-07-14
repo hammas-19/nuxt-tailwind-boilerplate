@@ -26,12 +26,12 @@
               </div>
 
               <!-- Service Content -->
-              <div class="flex md:gap-10 gap-4 md:flex-row flex-col">
+              <div class=" md:gap-10 gap-4 grid md:grid-cols-2">
                 <h3
-                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white mb-3 transition-colors duration-500">
+                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white mb-3 transition-colors duration-500 max-w-[350px] w-fit">
                   {{ service.title }}
                 </h3>
-                <p class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500">
+                <p class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-full">
                   {{ service.description }}
                 </p>
               </div>
