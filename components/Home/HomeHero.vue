@@ -1,5 +1,5 @@
 <template>
-  <section class="relative min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+  <section class="relative flex items-center bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
 
     <!-- Main Content Container -->
     <div class="mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
@@ -11,7 +11,7 @@
         </div>
 
         <!-- Center Content - Takes more space -->
-        <div class="lg:col-span-3 flex items-center justify-center text-center py-8">
+        <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center md:py-[92px] py-16">
           <div class="max-w-2xl w-full">
             <!-- Top Badge -->
             <div
