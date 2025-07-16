@@ -13,6 +13,7 @@
     <div id="services">
       <HomeServices />
     </div>
+    <HomeAiServices />
     <HomeCTA2 @open-modal="isModalOpen = true" />
     <div id="portfolio">
       <HomePortfolioMarquee />

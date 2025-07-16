@@ -1,126 +1,75 @@
 <template>
-  <section class="py-20 bg-white">
+  <section class="py-12 sm:py-16 md:py-20 bg-white">
     <div class="def-container mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20">
 
         <!-- Left Side - Sticky Content -->
         <div class="lg:sticky lg:top-32 lg:self-start">
           <div class="max-w-lg">
-            <!-- Services Badge -->
+            <!-- About Badge -->
             <div class="inline-block text-[#E2725B] font-semibold text-lg mb-4">
               About us
             </div>
 
             <!-- Main Heading -->
-            <h2 class="text-4xl lg:text-5xl font-bold text-boss mb-6 leading-tight">
-              What We Offer
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-boss mb-6 leading-tight">
+              We're truly an extension of your marketing team.
             </h2>
 
             <!-- Description -->
-            <p class="text-lg text-gray-600 leading-relaxed">
-              We provide comprehensive design services to enhance your product's usability and visual appeal.
+            <p class="text-base sm:text-lg text-gray-600 leading-relaxed mb-8">
+              We learn your business goals from every angle. we create and put into action a full digital strategy,
+              proven to work by data. We'll team up with you, blending right in with your people to make sure everyone's
+              aligned.
             </p>
+
+            <!-- Team Members -->
+            <div class="space-y-4 sm:space-y-6">
+              <h3 class="text-xl sm:text-2xl font-bold text-boss mb-4">Meet Our Team</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                <div v-for="member in teamMembers" :key="member.id"
+                  class="bg-boss rounded-2xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
+                  <!-- Member Image -->
+                  <div class="relative mb-4">
+                    <img :src="member.image" :alt="member.name"
+                      class="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover mx-auto border-4 border-[#E2725B]" />
+                  </div>
+
+                  <!-- Member Info -->
+                  <div class="text-center">
+                    <h4 class="font-bold text-white text-lg sm:text-xl mb-1">{{ member.name }}</h4>
+                    <p class="text-[#E2725B] font-semibold text-sm sm:text-base mb-2">{{ member.position }}</p>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">{{ member.description }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Right Side - Service Cards -->
-        <div class="space-y-6">
-
-          <!-- UX Audit Card -->
-          <div
-            class="bg-boss rounded-2xl p-8 text-white relative overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
-            <!-- Number Badge -->
-            <div class="text-[#E2725B] font-bold text-lg mb-4">01</div>
-
+        <!-- Right Side - Cards -->
+        <div class="space-y-4 sm:space-y-6">
+          <div v-for="(item, index) in aboutData" :key="item.id"
+            class="bg-boss rounded-xl sm:rounded-2xl p-6 sm:p-8 text-white relative overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
             <!-- Service Title -->
-            <h3 class="text-3xl font-bold mb-4">UX Audit</h3>
+            <h3 class="text-2xl sm:text-3xl font-bold mb-4 pr-12">{{ item.title }}</h3>
 
             <!-- Service Description -->
-            <p class="text-gray-300 text-lg leading-relaxed mb-6">
-              We review your current design to find areas for improvement and make it more user-friendly.
-            </p>
+            <div class="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
+              <div v-if="item.type === 'values'">
+                <div v-for="value in item.values" :key="value.name" class="mb-3 sm:mb-4">
+                  <div class="font-semibold text-white mb-1 text-sm sm:text-base">{{ value.name }}:</div>
+                  <div class="text-sm sm:text-base">{{ value.description }}</div>
+                </div>
+              </div>
+              <p v-else class="text-sm sm:text-base">{{ item.description }}</p>
+            </div>
 
             <!-- Icon -->
-            <div class="absolute top-8 right-8">
-              <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div class="absolute top-6 sm:top-8 right-6 sm:right-8">
+              <Icon :name="item.icon" class="min-h-6 min-w-6 sm:min-h-8 sm:min-w-8 text-white" />
             </div>
           </div>
-
-          <!-- Wireframing Card -->
-          <div
-            class="bg-boss rounded-2xl p-8 text-white relative overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
-            <!-- Number Badge -->
-            <div class="text-[#E2725B] font-bold text-lg mb-4">02</div>
-
-            <!-- Service Title -->
-            <h3 class="text-3xl font-bold mb-4">Wireframing</h3>
-
-            <!-- Service Description -->
-            <p class="text-gray-300 text-lg leading-relaxed mb-6">
-              We create simple sketches of your app or website to plan the layout and user journey.
-            </p>
-
-            <!-- Icon -->
-            <div class="absolute top-8 right-8">
-              <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-              </svg>
-            </div>
-          </div>
-
-          <!-- Visual Design Card -->
-          <div
-            class="bg-boss rounded-2xl p-8 text-white relative overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
-            <!-- Number Badge -->
-            <div class="text-[#E2725B] font-bold text-lg mb-4">03</div>
-
-            <!-- Service Title -->
-            <h3 class="text-3xl font-bold mb-4">Visual Design</h3>
-
-            <!-- Service Description -->
-            <p class="text-gray-300 text-lg leading-relaxed mb-6">
-              We design attractive and intuitive interfaces that users will love and find easy to use.
-            </p>
-
-            <!-- Icon -->
-            <div class="absolute top-8 right-8">
-              <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM7 21h10a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v7z" />
-              </svg>
-            </div>
-          </div>
-
-          <!-- Usability Testing Card -->
-          <div
-            class="bg-boss rounded-2xl p-8 text-white relative overflow-hidden group hover:transform hover:scale-105 transition-all duration-300">
-            <!-- Number Badge -->
-            <div class="text-[#E2725B] font-bold text-lg mb-4">04</div>
-
-            <!-- Service Title -->
-            <h3 class="text-3xl font-bold mb-4">Usability Testing</h3>
-
-            <!-- Service Description -->
-            <p class="text-gray-300 text-lg leading-relaxed mb-6">
-              We test your product with real users to find and fix any problems, ensuring it works smoothly for
-              everyone.
-            </p>
-
-            <!-- Icon -->
-            <div class="absolute top-8 right-8">
-              <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                  d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-              </svg>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -129,7 +78,71 @@
 </template>
 
 <script setup>
-// No additional logic needed for this component
+import { ref } from 'vue'
+
+// About us data array
+const aboutData = ref([
+  {
+    id: 1,
+    type: 'values',
+    title: 'OUR VALUES',
+    icon: 'hugeicons:vision',
+    values: [
+      {
+        name: 'Results Driven',
+        description: 'We focus on delivering real outcomes.'
+      },
+      {
+        name: 'Always Learning',
+        description: 'We\'re constantly improving and adapting.'
+      },
+      {
+        name: 'One Team, One Goal',
+        description: 'We achieve together.'
+      },
+      {
+        name: 'Simple Solutions',
+        description: 'We believe in making things easy to understand and use.'
+      },
+      {
+        name: 'Client First',
+        description: 'Your success is our top priority.'
+      }
+    ]
+  },
+  {
+    id: 2,
+    type: 'mission',
+    title: 'OUR MISSION',
+    description: 'To supercharge the growth of our clients businesses.',
+    icon: 'hugeicons:target-01'
+  },
+  {
+    id: 3,
+    type: 'vision',
+    title: 'OUR VISION',
+    description: 'To be the best and most sought-after performance marketing company in the world.',
+    icon: 'hugeicons:eye'
+  }
+])
+
+// Team members data
+const teamMembers = ref([
+  {
+    id: 1,
+    name: 'Sarah Johnson',
+    position: 'CEO & Founder',
+    description: 'Visionary leader with 15+ years in digital marketing and business strategy.',
+    image: '/Team/CEO.jpeg'
+  },
+  {
+    id: 2,
+    name: 'Michael Chen',
+    position: 'Project Manager',
+    description: 'Expert in project coordination and team leadership, ensuring seamless execution.',
+    image: '/Team/ProjectManager.jpeg'
+  }
+])
 </script>
 
 <style scoped>
