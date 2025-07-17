@@ -17,8 +17,9 @@
         </p>
       </div>
       <div class="flex-shrink-0">
-        <button
-          class="bg-[#E2725B] hover:bg-[#d1634a] text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+        <button @click="$emit('openModal')"
+          class="cursor-pointer  bg-[#E2725B] hover:bg-[#d1634a] text-white px-8 py-4 rounded-full font-medium transition-all
+          duration-300 hover:shadow-lg transform hover:-translate-y-1">
           Contact Our Offices
         </button>
       </div>

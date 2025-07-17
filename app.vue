@@ -23,8 +23,8 @@
       <HomeTestimonials />
     </div>
     <HomeFaqs />
+    <HomeLocations @open-modal="isModalOpen = true" />
     <ContactModal :is-modal-open="isModalOpen" @close="isModalOpen = false" />
-    <HomeLocations />
     <TheFooter />
   </div>
 </template>
