@@ -24,6 +24,7 @@
     </div>
     <HomeFaqs />
     <ContactModal :is-modal-open="isModalOpen" @close="isModalOpen = false" />
+    <HomeLocations />
     <TheFooter />
   </div>
 </template>

@@ -13,14 +13,13 @@
 
             <!-- Main Heading -->
             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-boss mb-6 leading-tight">
-              We're truly an extension of your marketing team.
+              EXCLUSIVE PARTNERSHIPS: YOUR COMPETITIVE FUTURE
             </h2>
 
             <!-- Description -->
             <p class="text-base sm:text-lg text-gray-600 leading-relaxed mb-8">
-              We learn your business goals from every angle. we create and put into action a full digital strategy,
-              proven to work by data. We'll team up with you, blending right in with your people to make sure everyone's
-              aligned.
+              We hold strong negotiation power with our partners, granting you exclusive access to the latest media
+              products, unique collaborations, and inside insights. This ensures you outpace your competition.
             </p>
 
             <!-- Team Members -->

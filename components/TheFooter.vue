@@ -90,17 +90,14 @@
           <h3 class="text-lg font-semibold text-white mb-6">Mr TechLabs</h3>
           <div class="space-y-3 text-white/80">
             <p>
-              123 Business Street<br>
-              Karachi<br>
-              Sindh<br>
-              75500 PK
+              Office: Off2-0109 <br> Ras Al Khor <br> Industrial Area 3 <br> Dubai
             </p>
 
             <div class="pt-4">
-              <p class="text-white font-medium mb-2">+92 321 5571774</p>
-              <a href="mailto:hello@digiranchers.com"
+              <p class="text-white font-medium mb-2">+971 582811612</p>
+              <a href="mailto:official.mrtechlabs@gmail.com"
                 class="text-white hover:text-white/80 transition-colors duration-200">
-                hello@digiranchers.com
+                official.mrtechlabs@gmail.com
               </a>
             </div>
           </div>

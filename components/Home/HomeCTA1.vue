@@ -45,12 +45,13 @@
               <div class="flex flex-col sm:flex-row sm:items-center gap-4">
                 <div class="text-left">
                   <div class="text-xs text-white uppercase tracking-wide mb-1">CALL US AT</div>
-                  <div class="font-bold text-gray-800">+92 321 5571774</div>
+                  <div class="font-bold text-gray-800">+971 582811612</div>
                 </div>
               </div>
             </div>
           </div>
-          <img src="/CTA1/cta1Image.png" alt="Website Development Showcase" class="w-fit h-full max-h-[450px] relative z-10">
+          <img src="/CTA1/cta1Image.png" alt="Website Development Showcase"
+            class="w-fit h-full max-h-[450px] relative z-10">
         </div>
       </div>
     </section>

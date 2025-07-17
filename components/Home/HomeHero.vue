@@ -14,23 +14,19 @@
         <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center md:py-[92px] py-16">
           <div class="max-w-2xl w-full">
             <!-- Top Badge -->
-            <div
-              class="inline-block bg-peachy text-white px-6 py-2 rounded-full text-sm font-medium mb-6 uppercase tracking-wide">
-              Best Web Development Company for Success
-            </div>
+
 
             <!-- Main Heading -->
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-gray-800">
-              Transforming Ideas into<br>
-              <span class="text-peachy">Digital Reality</span>
+              YOUR SHORTCUT TO REVENUE ROCKETS <br>
+              AND A ROCKSTAR BRAND.
+
             </h1>
 
             <!-- Description -->
             <p class="text-lg sm:text-xl leading-relaxed text-gray-600 mb-10">
-              We help businesses shine with custom web development,<br class="hidden sm:block">
-              professional seo services, and creative design and branding services.<br class="hidden sm:block">
-              Let's create something amazing together at <span class="text-peachy font-semibold">Mr</span> <span
-                class="text-gray-800 font-bold">TechLabs</span>
+              We provide rapid, highly effective strategies to dramatically increase your sales and build a highly
+              recognized, desirable brand.
             </p>
 
             <!-- CTA Button -->

@@ -5,10 +5,11 @@
       <!-- Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-          Services We Offer
+          GROWTH DRIVEN BY ACTION
         </h2>
         <p class="text-lg text-gray-600">
-          We provide services from tech to design.
+          For business growth through execution, we offer everything you need. Our services span creative, digital, and
+          IT, ensuring total satisfaction for all our clients.
         </p>
       </div>
 
@@ -31,7 +32,8 @@
                   class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white mb-3 transition-colors duration-500 max-w-[350px] w-fit">
                   {{ service.title }}
                 </h3>
-                <p class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-full">
+                <p
+                  class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-full">
                   {{ service.description }}
                 </p>
               </div>
@@ -42,9 +44,8 @@
               <div
                 class="w-12 h-12 flex items-center justify-center bg-gray-100 group-hover:bg-white/20 rounded-full transition-all duration-500">
                 <svg class="w-6 h-6 text-gray-600 !group-hover:text-white transition-colors duration-500"
-                  xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                  viewBox="0 0 24 24">
-                  <path  d="M5 17.59L15.59 7H9V5h10v10h-2V8.41L6.41 19z" />
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                  <path d="M5 17.59L15.59 7H9V5h10v10h-2V8.41L6.41 19z" />
                 </svg>
               </div>
             </div>
@@ -86,6 +87,71 @@ const services = [
     title: "AI SOLUTIONS & AUTOMATION",
     description: "Integrate advanced AI solutions to automate processes, and deliver personalized experiences.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "WORDPRESS",
+    description: "Build and manage powerful WordPress websites.",
+    image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "E-COMMERCE",
+    description: "Set up and optimize online stores for sales.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "SHOPIFY",
+    description: "Design and launch high-converting Shopify stores.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "CONTENT WRITING",
+    description: "Create words that grab attention and get results.",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "SOCIAL MEDIA MANAGEMENT",
+    description: "Handle social media to engage audiences and build brands.",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "SOCIAL MEDIA ADVERTISING",
+    description: "Create targeted social media ads that drive results.",
+    image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "INFLUENCER MARKETING",
+    description: "Get your brand seen and trusted through influential people.",
+    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "GRAPHIC DESIGN",
+    description: "Craft stunning visuals that make brands stand out.",
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "APP DEVELOPMENT",
+    description: "Build custom mobile apps tailored to business needs.",
+    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "BRANDING",
+    description: "Create strong, memorable brand identities.",
+    image: "https://images.unsplash.com/photo-1553835973-dec43bfddbeb?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "ANIMATION",
+    description: "Bring ideas to life with captivating animation.",
+    image: "https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "OUTSOURCED ACCOUNTING & HR",
+    description: "Let us handle your accounting and HR so you can focus on your business.",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+  },
+  {
+    title: "ERP DEVELOPMENT & IMPLEMENTATION",
+    description: "We build and set up powerful software to help you run your entire business smoothly.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
   }
 ]
 </script>
