@@ -59,36 +59,6 @@
 <script setup>
 const services = [
   {
-    title: "BRANDING & VISUAL IDENTITY",
-    description: "Craft unique, eye-catching brands that distinctively elevate your business profile and market presence.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
-    title: "UX/UI RESEARCH & DESIGN",
-    description: "Develop easy-to-use, engaging interfaces with deep user research to ensure satisfaction and usability.",
-    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
-    title: "WEB & MOBILE APP DEVELOPMENT",
-    description: "Build reliable digital products meticulously tailored to meet contemporary business needs.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
-    title: "LOW CODE / NO CODE DEVELOPMENT",
-    description: "Customize CMS website using low/no-code tools like WordPress, Framer, WebFlow & Squarespace.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
-    title: "BLOCKCHAIN SOLUTIONS",
-    description: "Implement secure, innovative blockchain technologies to enhance and empower your business operations.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
-    title: "AI SOLUTIONS & AUTOMATION",
-    description: "Integrate advanced AI solutions to automate processes, and deliver personalized experiences.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
-  },
-  {
     title: "WORDPRESS",
     description: "Build and manage powerful WordPress websites.",
     image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
