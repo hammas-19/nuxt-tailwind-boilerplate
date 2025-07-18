@@ -1,10 +1,10 @@
 <template>
-  <section class="py-20 bg-peachy">
+  <section class="py-20 bg-boss">
     <div class="def-container mx-auto px-4 sm:px-6 lg:px-8">
 
       <!-- Header -->
       <div class="text-center mb-16">
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h2 class="text-4xl lg:text-5xl font-bold text-peachy mb-6">
           Our Process – From Strategy to Success
         </h2>
         <p class="text-lg text-white max-w-2xl mx-auto">
@@ -20,39 +20,39 @@
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4 relative z-10">
           <div class="lg:grid grid-cols-5 absolute hidden w-full top-[20%]">
             <div class="flex justify-center items-center">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
-              <hr class="border-t border-dashed border-boss w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
+              <hr class="border-t border-dashed border-peachy w-full">
 
-              <hr class="border-t border-dashed border-boss w-full">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
-
-            </div>
-            <div class="flex justify-center items-center">
-              <hr class="border-t border-dashed border-boss w-full">
-
-              <hr class="border-t border-dashed border-boss w-full">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
+              <hr class="border-t border-dashed border-peachy w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
 
             </div>
             <div class="flex justify-center items-center">
-              <hr class="border-t border-dashed border-boss w-full">
+              <hr class="border-t border-dashed border-peachy w-full">
 
-              <hr class="border-t border-dashed border-boss w-full">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
-
-            </div>
-            <div class="flex justify-center items-center">
-              <hr class="border-t border-dashed border-boss w-full">
-
-              <hr class="border-t border-dashed border-boss w-full">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
+              <hr class="border-t border-dashed border-peachy w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
 
             </div>
             <div class="flex justify-center items-center">
-              <hr class="border-t border-dashed border-boss w-full">
+              <hr class="border-t border-dashed border-peachy w-full">
 
-              <hr class="border-t border-dashed border-boss w-full">
-              <div class="min-w-4 min-h-4 bg-white rounded-full"></div>
+              <hr class="border-t border-dashed border-peachy w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
+
+            </div>
+            <div class="flex justify-center items-center">
+              <hr class="border-t border-dashed border-peachy w-full">
+
+              <hr class="border-t border-dashed border-peachy w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
+
+            </div>
+            <div class="flex justify-center items-center">
+              <hr class="border-t border-dashed border-peachy w-full">
+
+              <hr class="border-t border-dashed border-peachy w-full">
+              <div class="min-w-4 min-h-4 bg-peachy rounded-full"></div>
 
             </div>
           </div>
@@ -61,7 +61,7 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-boss flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
                 <span class="text-4xl lg:text-5xl">🔍</span>
               </div>
             </div>
@@ -81,7 +81,7 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-boss flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
                 <span class="text-4xl lg:text-5xl">🎨</span>
               </div>
             </div>
@@ -101,7 +101,7 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-boss flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
                 <span class="text-4xl lg:text-5xl">⚙️</span>
               </div>
             </div>
@@ -121,7 +121,7 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-boss flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
                 <span class="text-4xl lg:text-5xl">🛒</span>
               </div>
             </div>
@@ -141,7 +141,7 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-boss flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
                 <span class="text-4xl lg:text-5xl">📈</span>
               </div>
             </div>

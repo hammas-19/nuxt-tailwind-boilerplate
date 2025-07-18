@@ -27,7 +27,7 @@
         <div class="marquee absolute left-0 w-1/3 md:pr-4">
           <div class="md:space-y-6 space-y-3">
             <div v-for="(item, index) in testimonials.slice(0, 4)" :key="'col1-' + index"
-              class="bg-[#E2725B] md:rounded-2xl rounded-lg md:p-6 p-3 shadow-lg">
+              class="bg-boss md:rounded-2xl rounded-lg md:p-6 p-3 shadow-lg">
               <!-- Star Rating -->
               <div class="flex items-center gap-1 mb-4">
                 <svg v-for="n in 5" :key="n" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
@@ -45,13 +45,7 @@
               <div class="flex items-center justify-between">
                 <div>
                   <div class="md:font-semibold font-medium md:text-base text-sm text-white">{{ item.name }}</div>
-                  <div class="text-boss text-sm">{{ item.city }}</div>
-                </div>
-                <div class="text-boss hover:text-white cursor-pointer transition-colors">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
+                  <div class="text-peachy text-sm">{{ item.city }}</div>
                 </div>
               </div>
             </div>
@@ -82,12 +76,6 @@
                   <div class="md:font-semibold font-medium md:text-base text-sm text-white">{{ item.name }}</div>
                   <div class="text-boss text-sm">{{ item.city }}</div>
                 </div>
-                <div class="text-boss hover:text-white cursor-pointer transition-colors">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </div>
               </div>
             </div>
           </div>
@@ -97,7 +85,7 @@
         <div class="marquee-third absolute right-0 w-1/3 md:pl-4 ">
           <div class="md:space-y-6 space-y-3">
             <div v-for="(item, index) in testimonials.slice(7)" :key="'col3-' + index"
-              class="bg-[#E2725B] md:rounded-2xl rounded-lg md:p-6 p-3 shadow-lg">
+              class="bg-boss md:rounded-2xl rounded-lg md:p-6 p-3 shadow-lg">
               <!-- Star Rating -->
               <div class="flex items-center gap-1 mb-4">
                 <svg v-for="n in 5" :key="n" class="w-4 h-4 fill-white" viewBox="0 0 24 24">
@@ -115,13 +103,7 @@
               <div class="flex items-center justify-between">
                 <div>
                   <div class="md:font-semibold font-medium md:text-base text-sm text-white">{{ item.name }}</div>
-                  <div class="text-boss text-sm">{{ item.city }}</div>
-                </div>
-                <div class="text-boss hover:text-white cursor-pointer transition-colors">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
+                  <div class="text-peachy text-sm">{{ item.city }}</div>
                 </div>
               </div>
             </div>
