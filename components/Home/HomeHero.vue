@@ -11,7 +11,7 @@
         </div>
 
         <!-- Center Content - Takes more space -->
-        <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center md:py-[92px] py-16 relative z-10">
+        <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center pb-16 relative z-10">
           <div class="max-w-2xl w-full">
             <!-- Top Badge -->
 
@@ -19,7 +19,7 @@
             <!-- Main Heading -->
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-gray-800">
               YOUR SHORTCUT TO REVENUE ROCKETS <br>
-              AND A ROCKSTAR BRAND.
+              AND A ROCKSTAR BRAND
 
             </h1>
 
@@ -44,7 +44,7 @@
         <div class="hidden lg:flex items-center justify-center h-full">
           <div class="relative z-0 w-full  flex items-center justify-center">
             <img src="/misc/Our-Impact.png" alt="Digital transformation sphere"
-              class="w-full object-cover h-[300px] xl:h-[420px] animate-spin-slow  overflow-visible">
+              class="w-full object-cover h-[300px] xl:h-[380px] animate-spin-slow  overflow-visible">
           </div>
         </div>
 

@@ -27,16 +27,17 @@
               </div>
 
               <!-- Service Content -->
-              <div class=" md:gap-10 gap-4 grid md:grid-cols-2">
+              <div class="md:gap-10 gap-4 flex flex-wrap items-center">
                 <h3
-                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white mb-3 transition-colors duration-500 max-w-[350px] w-fit">
+                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white mb-3 transition-colors duration-500 w-[350px]">
                   {{ service.title }}
                 </h3>
                 <p
-                  class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-full">
+                  class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-fit ">
                   {{ service.description }}
                 </p>
               </div>
+
             </div>
 
             <!-- Arrow Icon -->
@@ -61,17 +62,17 @@ const services = [
   {
     title: "WORDPRESS",
     description: "Build and manage powerful WordPress websites.",
-    image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/Wordpress.png"
   },
   {
     title: "E-COMMERCE",
     description: "Set up and optimize online stores for sales.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/eCommerce.png"
   },
   {
     title: "SHOPIFY",
     description: "Design and launch high-converting Shopify stores.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/Shopify.png"
   },
   {
     title: "CONTENT WRITING",
@@ -86,12 +87,12 @@ const services = [
   {
     title: "SOCIAL MEDIA ADVERTISING",
     description: "Create targeted social media ads that drive results.",
-    image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/SocialMedia.jpg"
   },
   {
     title: "INFLUENCER MARKETING",
     description: "Get your brand seen and trusted through influential people.",
-    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/InfluencerMarketing.jpg"
   },
   {
     title: "GRAPHIC DESIGN",

@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <img src="/misc/Image-01.png" alt="Website Development Showcase"
+          <img src="/misc/Image-1.png" alt="Website Development Showcase"
             class="w-fit h-full max-h-[450px] relative z-10">
         </div>
       </div>

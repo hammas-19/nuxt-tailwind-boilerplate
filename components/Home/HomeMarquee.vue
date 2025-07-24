@@ -2,43 +2,43 @@
   <div class="marquee_container text-7xl font-sans text-white font-bold uppercase">
     <div class="marquee">
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
     </div>
     <div class="marquee">
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>We Make it</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Simple to</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
       <!-- <span class="pr-10"></span> -->
-      <h2>Grow Your Business.</h2>
+      <h2>We Make it Simple to Grow Your Business.</h2>
     </div>
   </div>
 </template>
@@ -54,7 +54,7 @@
 
 .marquee {
   display: inline-block;
-  animation: marquee 30s linear infinite;
+  animation: marquee 100s linear infinite;
 }
 
 @keyframes marquee {

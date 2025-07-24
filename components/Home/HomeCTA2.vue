@@ -4,7 +4,7 @@
       <div class="text-center max-w-4xl mx-auto">
 
         <!-- Main Heading -->
-        <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-8">
+        <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-boss leading-tight mb-8">
           A local marketing agency for UK businesses with proven results.
         </h2>
 
