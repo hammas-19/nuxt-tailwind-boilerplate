@@ -36,43 +36,43 @@
 const websites = [
   {
     name: 'E-commerce Platform',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/1.jpg'
   },
   {
     name: 'SaaS Dashboard',
-    image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/2.jpg'
   },
   {
     name: 'Tech Startup',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/3.jpg'
   },
   {
     name: 'Healthcare App',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/4.jpg'
   },
   {
     name: 'Financial Services',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/5.jpg'
   },
   {
     name: 'Education Platform',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/6.jpg'
   },
   {
     name: 'Travel Website',
-    image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/7.jpg'
   },
   {
     name: 'Food Delivery',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/8.jpg'
   },
   {
     name: 'Real Estate',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop&crop=center'
+    image: '/portfolio/9.jpg'
   },
   {
-    name: 'Fitness App',
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center'
+    name: 'Real Estate',
+    image: '/portfolio/10.jpg'
   }
 ]
 </script>
