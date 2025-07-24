@@ -11,7 +11,7 @@
         </div>
 
         <!-- Center Content - Takes more space -->
-        <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center md:py-[92px] py-16">
+        <div class="md:mt-36 mt-28 lg:col-span-3 flex items-center justify-center text-center md:py-[92px] py-16 relative z-10">
           <div class="max-w-2xl w-full">
             <!-- Top Badge -->
 
@@ -42,12 +42,9 @@
 
         <!-- Right Side - Image (Hidden on mobile) -->
         <div class="hidden lg:flex items-center justify-center h-full">
-          <div class="relative w-full max-w-sm h-96 flex items-center justify-center">
-            <img
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
-              alt="Digital transformation sphere"
-              class="w-full h-full object-cover rounded-full shadow-2xl animate-bounce"
-              style="animation: float 6s ease-in-out infinite;">
+          <div class="relative z-0 w-full  flex items-center justify-center">
+            <img src="/misc/Our-Impact.png" alt="Digital transformation sphere"
+              class="w-full object-cover h-[300px] xl:h-[420px] animate-spin-slow  overflow-visible">
           </div>
         </div>
 
@@ -56,22 +53,20 @@
   </section>
 </template>
 
-<script setup>
-import { HomeNetworkBg } from '#components';
-
-// No additional logic needed for this component
-</script>
 
 <style scoped>
-@keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0px);
+/* Slow spinning animation */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
   }
 
-  50% {
-    transform: translateY(-20px);
+  to {
+    transform: rotate(360deg);
   }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 28s linear infinite;
 }
 </style>

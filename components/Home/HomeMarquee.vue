@@ -1,44 +1,44 @@
 <template>
-  <div class="marquee_container text-7xl font-sans text-white font-bold">
+  <div class="marquee_container text-7xl font-sans text-white font-bold uppercase">
     <div class="marquee">
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
     </div>
     <div class="marquee">
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
-      <span class="pr-10">✦</span>
-      <h2>IDEAS</h2>
-      <span class="pr-10">✦</span>
-      <h2>TO</h2>
-      <span class="pr-10">✦</span>
-      <h2>DIGITAL REALITY</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>We Make it</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Simple to</h2>
+      <!-- <span class="pr-10"></span> -->
+      <h2>Grow Your Business.</h2>
     </div>
   </div>
 </template>

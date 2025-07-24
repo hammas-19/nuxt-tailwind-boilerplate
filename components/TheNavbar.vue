@@ -2,7 +2,7 @@
   <nav
     class="fixed top-0 py-4 left-0 w-full z-50 bg-gradient-to-b backdrop-blur-sm from-[#ffffff] via-[#ffffff9f] to-[#ffffff17]">
     <div class="def-container mx-auto">
-      <div class="bg-peachy rounded-full px-2 pl-6 py-3 shadow-lg">
+      <div class="bg-peachy rounded-full px-1 pl-6 py-3 shadow-lg">
         <div class="flex items-center justify-between h-12">
           <!-- Logo -->
           <div class="flex-shrink-0">

@@ -94,7 +94,7 @@
             </p>
 
             <div class="pt-4">
-              <p class="text-white font-medium mb-2">+971 582811612</p>
+              <p class="text-white font-medium mb-2">+971 58 1237912</p>
               <a href="mailto:official.mrtechlabs@gmail.com"
                 class="text-white hover:text-white/80 transition-colors duration-200">
                 official.mrtechlabs@gmail.com

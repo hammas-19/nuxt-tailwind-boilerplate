@@ -61,8 +61,8 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
-                <span class="text-4xl lg:text-5xl">🔍</span>
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-boss shadow-lg transition-colors duration-300">
+                <img src="/misc/Discover.png" class="lg:w-24 w-16 h-fit" alt="Discover">
               </div>
             </div>
 
@@ -81,8 +81,8 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
-                <span class="text-4xl lg:text-5xl">🎨</span>
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-boss shadow-lg transition-colors duration-300">
+                <img src="/misc/Design.png" class="lg:w-24 w-16 h-fit" alt="Design">
               </div>
             </div>
 
@@ -101,8 +101,8 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
-                <span class="text-4xl lg:text-5xl">⚙️</span>
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-boss shadow-lg transition-colors duration-300">
+                <img src="/misc/Develop.png" class="lg:w-24 w-16 h-fit" alt="Develop">
               </div>
             </div>
 
@@ -121,8 +121,8 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
-                <span class="text-4xl lg:text-5xl">🛒</span>
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-boss shadow-lg transition-colors duration-300">
+                <img src="/misc/Market.png" class="lg:w-24 w-16 h-fit" alt="Market">
               </div>
             </div>
 
@@ -141,8 +141,8 @@
             <!-- Circle with Emoji -->
             <div class="relative mb-6">
               <div
-                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-white shadow-lg transition-colors duration-300">
-                <span class="text-4xl lg:text-5xl">📈</span>
+                class="w-32 h-32 lg:w-40 lg:h-40 rounded-full border-2 border-dashed border-peachy flex items-center justify-center bg-boss shadow-lg transition-colors duration-300">
+                <img src="/misc/Optimise.png" class="lg:w-24 w-16 h-fit" alt="Optimise">
               </div>
             </div>
 
