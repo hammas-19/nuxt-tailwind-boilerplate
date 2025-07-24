@@ -29,11 +29,11 @@
               <!-- Service Content -->
               <div class="md:gap-10 gap-4 flex flex-wrap items-center">
                 <h3
-                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white transition-colors duration-500 sm:w-[350px]"> 
+                  class="text-2xl lg:text-3xl text-gray-900 group-hover:text-white transition-colors duration-500 sm:w-[320px]"> 
                   {{ service.title }}
                 </h3>
                 <p
-                  class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-fit max-w-[550px]">
+                  class="text-gray-600 group-hover:text-white/90 text-base lg:text-lg transition-colors duration-500 w-fit max-w-[340px] ">
                   {{ service.description }}
                 </p>
               </div>

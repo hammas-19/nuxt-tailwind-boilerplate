@@ -5,7 +5,7 @@
 
         <!-- Main Heading -->
         <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-boss leading-tight mb-8">
-          A local marketing agency for UK businesses with proven results.
+          The Best Marketing Agency For Your Business With Proven Results
         </h2>
 
         <!-- Italic Subheading -->
