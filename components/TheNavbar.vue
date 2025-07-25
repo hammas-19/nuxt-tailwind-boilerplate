@@ -48,7 +48,7 @@
           <!-- Mobile menu button -->
           <div class="md:hidden">
             <button @click="toggleMobileMenu"
-              class="text-white hover:text-white/80 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              class="text-white hover:text-white/80 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white mr-5">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path v-if="!mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M4 6h16M4 12h16M4 18h16" />

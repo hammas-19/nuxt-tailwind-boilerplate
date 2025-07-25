@@ -2,7 +2,7 @@
   <div>
     <section class="my-20 relative overflow-hidden mx-5">
       <div class="max-w-7xl mx-auto rounded-[40px]  border-2 border-peachy">
-        <div class="grid lg:grid-cols-2 gap-8 items-center justify-items-center">
+        <div class="grid lg:grid-cols-2 gap-8 items-center justify-items-center overflow-hidden">
 
           <!-- Left Side - Image with Solar System Animation -->
           <div class=" bg-peachy rounded-4xl m-2 p-5 md:p-10">
@@ -50,8 +50,11 @@
               </div>
             </div>
           </div>
-          <img src="/misc/Image-1.png" alt="Website Development Showcase"
-            class="w-fit h-full max-h-[450px] relative z-10">
+          <div class="flex justify-end relative">
+            <img src="/CTA1/technical-development.png" alt="Website Development Showcase"
+              class="w-fit h-full max-h-[450px] relative z-10 animate-float">
+            <img src="/CTA1/Metallic-Puzzle.J03.png" class="metal-float h-[120px] w-fut absolute" alt="">
+          </div>
         </div>
       </div>
     </section>
@@ -96,102 +99,29 @@
   transform: translateX(0.25rem);
 }
 
-/* Solar System Animation Styles */
-.solar-system-container {
-  perspective: 1500px;
-  width: 310px;
-  height: 310px;
-  background-image: url('/CTA1/circleSolar.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.solar-system {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-}
-
-.sun {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-size: cover;
-  transform: translate(-50%, -50%) translateZ(0);
-}
-
-/* Earth orbit animation */
-.earth-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  transform: translate(-50%, -50%) translateZ(-30px);
-  transform-style: preserve-3d;
-  animation: rotate-earth-orbit 16s linear infinite;
-}
-
-.earth {
-  position: absolute;
-  left: 50%;
-  border-radius: 50%;
-  top: -24px;
-  width: 80px;
-  height: 80px;
-  background-image: url('/CTA1/solar1.png');
-  background-size: cover;
-  transform: translateX(-50%) translateZ(0);
-}
-
-/* Mars orbit animation */
-.mars-orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  transform: translate(-50%, -50%) translateZ(-60px) rotate(180deg);
-  transform-style: preserve-3d;
-  animation: rotate-mars-orbit 25s linear infinite;
-}
-
-.mars {
-  position: absolute;
-  left: 50%;
-  border-radius: 50%;
-  top: -18px;
-  width: 65px;
-  height: 65px;
-  background-image: url('/CTA1/solar2.png');
-  background-size: cover;
-  transform: translateX(-50%) translateZ(0);
-}
-
-/* Keyframe animations - cannot be converted to Tailwind */
-@keyframes rotate-earth-orbit {
-  from {
-    transform: translate(-50%, -50%) translateZ(-30px) rotate(0deg);
+@keyframes float {
+  0% {
+    transform: translateY(10px);
+    /* Start at a small value */
   }
 
-  to {
-    transform: translate(-50%, -50%) translateZ(-30px) rotate(360deg);
+  50% {
+    transform: translateY(-10px);
+    /* Move up */
+  }
+
+  100% {
+    transform: translateY(10px);
+    /* Move back down */
   }
 }
 
-@keyframes rotate-mars-orbit {
-  from {
-    transform: translate(-50%, -50%) translateZ(-60px) rotate(180deg);
-  }
-
-  to {
-    transform: translate(-50%, -50%) translateZ(-60px) rotate(540deg);
-  }
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+  /* Smooth animation with easing */
+}
+.metal-float {
+  animation: float 5s ease-in-out infinite;
+  /* Smooth animation with easing */
 }
 </style>

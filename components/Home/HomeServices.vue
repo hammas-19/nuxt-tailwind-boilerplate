@@ -82,7 +82,7 @@ const services = [
   {
     title: "SOCIAL MEDIA MANAGEMENT",
     description: "Handle social media to engage audiences and build brands.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/SocialMediaM.jpg"
   },
   {
     title: "SOCIAL MEDIA ADVERTISING",
