@@ -18,30 +18,30 @@
           <h3 class="text-lg font-semibold text-white mb-6">Navigation</h3>
           <ul class="space-y-3">
             <li>
-              <NuxtLink to="/work" class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#portfolio" class="text-white/80 hover:text-white transition-colors duration-200">
                 Work
-              </NuxtLink>
+              </a>
             </li>
             <li>
-              <NuxtLink to="/about" class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#aboutus" class="text-white/80 hover:text-white transition-colors duration-200">
                 About Us
-              </NuxtLink>
+              </a>
             </li>
-            <li>
+            <!-- <li>
               <NuxtLink to="/news" class="text-white/80 hover:text-white transition-colors duration-200">
                 News
               </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/contact" class="text-white/80 hover:text-white transition-colors duration-200">
+            </li> -->
+            <!-- <li>
+              <button to="/contact" class="text-white/80 hover:text-white transition-colors duration-200">
                 Contact
-              </NuxtLink>
-            </li>
-            <li>
+              </button>
+            </li> -->
+            <!-- <li>
               <NuxtLink to="/careers" class="text-white/80 hover:text-white transition-colors duration-200">
                 Current Opportunities
               </NuxtLink>
-            </li>
+            </li> -->
           </ul>
         </div>
 
@@ -50,37 +50,34 @@
           <h3 class="text-lg font-semibold text-white mb-6">What we do</h3>
           <ul class="space-y-3">
             <li>
-              <NuxtLink to="/services/branding" class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
                 Branding
-              </NuxtLink>
+              </a>
             </li>
             <li>
-              <NuxtLink to="/services/digital-marketing"
-                class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
                 Digital Marketing
-              </NuxtLink>
+              </a>
             </li>
             <li>
-              <NuxtLink to="/services/web-design" class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
                 Web Design
-              </NuxtLink>
+              </a>
             </li>
             <li>
-              <NuxtLink to="/services/development"
-                class="text-white/80 hover:text-white transition-colors duration-200">
+              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
                 Development
-              </NuxtLink>
+              </a>
             </li>
             <li>
-              <NuxtLink to="/services/animation" class="text-white/80 hover:text-white transition-colors duration-200">
-                3D Animation
-              </NuxtLink>
+              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
+                Animation
+              </a>
             </li>
             <li>
-              <NuxtLink to="/services/illustration"
-                class="text-white hover:text-white/80 transition-colors duration-200">
-                Illustration
-              </NuxtLink>
+              <a href="/#services" class="text-white hover:text-white/80 transition-colors duration-200">
+                Graphic Design
+              </a>
             </li>
           </ul>
         </div>
@@ -119,9 +116,9 @@
               Privacy policy
             </NuxtLink>
             <span class="text-white/50">|</span>
-            <NuxtLink to="/join" class="hover:text-white transition-colors duration-200">
+            <!-- <NuxtLink to="/join" class="hover:text-white transition-colors duration-200">
               Join us
-            </NuxtLink>
+            </NuxtLink> -->
           </div>
 
           <!-- Social Media Icons -->
