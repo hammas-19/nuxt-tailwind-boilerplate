@@ -25,7 +25,7 @@
     <HomeFaqs />
     <HomeLocations @open-modal="isModalOpen = true" />
     <ContactModal :is-modal-open="isModalOpen" @close="isModalOpen = false" />
-    <TheFooter />
+    <TheFooter @open-modal="isModalOpen = true" />
   </div>
 </template>
 <script setup>

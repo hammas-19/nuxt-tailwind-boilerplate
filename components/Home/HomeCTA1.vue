@@ -50,10 +50,11 @@
               </div>
             </div>
           </div>
-          <div class="flex justify-end relative">
-            <img src="/CTA1/technical-development.png" alt="Website Development Showcase"
+          <div class="flex justify-center relative w-full">
+            <img src="/CTA1/device.png" alt="Website Development Showcase"
               class="w-fit h-full max-h-[450px] relative z-10 animate-float">
-            <img src="/CTA1/Metallic-Puzzle.J03.png" class="metal-float h-[120px] w-fut absolute" alt="">
+            <img src="/CTA1/Metallic-Puzzle.J03.png" class="metal-float h-[120px] w-fit absolute right-1/9" alt="">
+            <img src="/CTA1/Metallic-Puzzle.J03.png" class="metal-float2 h-[120px] w-fit absolute left-1/10 top-1/2" alt="">
           </div>
         </div>
       </div>
@@ -121,7 +122,20 @@
   /* Smooth animation with easing */
 }
 .metal-float {
-  animation: float 5s ease-in-out infinite;
+  animation: spin-slow 15s ease-in-out infinite;
   /* Smooth animation with easing */
+}
+.metal-float2 {
+  animation: spin-slow 19s ease-in-out infinite;
+  /* Smooth animation with easing */
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
