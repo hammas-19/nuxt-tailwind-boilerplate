@@ -7,8 +7,10 @@
 
         <!-- Company Info -->
         <div class="lg:col-span-1 flex justify-center flex-col items-center gap-4">
-          <img src="/techLabsLogo.png" class="max-w-40 w-fit" alt="techLabsLogo">
-          <p class="text-white/80 text-lg">
+          <a href="/">
+            <img src="/techLabsLogo.png" class="max-w-40 w-fit" alt="techLabsLogo">
+          </a>
+            <p class="text-white/80 text-lg">
             Creative Design & Marketing
           </p>
         </div>
@@ -19,7 +21,7 @@
           <ul class="space-y-3">
             <li>
               <a href="/" class="text-white/80 hover:text-white transition-colors duration-200">
-                Work
+                Home
               </a>
             </li>
             <li>
@@ -82,11 +84,6 @@
             <li>
               <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
                 Development
-              </a>
-            </li>
-            <li>
-              <a href="/#services" class="text-white/80 hover:text-white transition-colors duration-200">
-                Animation
               </a>
             </li>
             <li>
