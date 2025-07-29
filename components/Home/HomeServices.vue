@@ -107,7 +107,7 @@ const services = [
   {
     title: "BRANDING",
     description: "Create strong, memorable brand identities.",
-    image: "https://images.unsplash.com/photo-1553835973-dec43bfddbeb?ixlib=rb-4.0.3&w=150&h=150&fit=crop&crop=center"
+    image: "/services/branding.png"
   },
   {
     title: "ANIMATION",

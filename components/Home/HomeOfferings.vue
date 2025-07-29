@@ -129,14 +129,14 @@ const aboutData = ref([
 const teamMembers = ref([
   {
     id: 1,
-    name: 'Sarah Johnson',
+    name: 'Rubab Danial',
     position: 'CEO & Founder',
     description: 'Visionary leader with 15+ years in digital marketing and business strategy.',
     image: '/Team/CEO.jpeg'
   },
   {
     id: 2,
-    name: 'Michael Chen',
+    name: 'Rumaisa Khan',
     position: 'Project Manager',
     description: 'Expert in project coordination and team leadership, ensuring seamless execution.',
     image: '/Team/ProjectManager.jpeg'

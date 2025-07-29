@@ -1,25 +1,6 @@
 <template>
-  <section class="py-20 bg-white">
+  <section class=" bg-white">
     <div class="def-container mx-auto px-4 sm:px-6 lg:px-8">
-
-      <!-- Header Section -->
-      <div class="mb-16">
-        <!-- Star Rating -->
-        <div class="flex items-center gap-1 mb-6">
-          <svg v-for="n in 5" :key="n" class="w-6 h-6 fill-[#E2725B]" viewBox="0 0 24 24">
-            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-          </svg>
-        </div>
-
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-          What Our Clients Say.
-        </h2>
-
-        <p class="text-lg text-gray-600 max-w-2xl">
-          Don't just take our word for it. We work day-in, day-out with a range of industries - each with unique
-          development and digital marketing requirements. Here's what they have to say about the results:
-        </p>
-      </div>
 
       <!-- Testimonials Grid -->
       <div class="wrapper relative h-[600px] overflow-hidden">
